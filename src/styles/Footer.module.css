@@ -1,0 +1,202 @@
+.footer {
+  background: #050505;
+  color: #ffffff;
+  padding: 70px 0 25px;
+}
+
+.container {
+  width: min(1320px, 92%);
+  margin: 0 auto;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr 1.7fr;
+  gap: 50px;
+  padding-bottom: 40px;
+}
+
+.brand h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.brand p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin-bottom: 28px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.socials a {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.links h4,
+.newsletter h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 22px;
+  color: #ffffff;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.links a:hover {
+  color: #ffffff;
+}
+
+.newsletter p {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.8;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+
+.inputBox {
+  width: 100%;
+  height: 58px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inputBox input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0 22px;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.inputBox input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.inputBox button {
+  width: 50px;
+  height: 50px;
+  margin-right: 4px;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.3s ease;
+}
+
+.inputBox button:hover {
+  transform: translateX(2px);
+}
+
+.bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+.bottomLinks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bottomLinks a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.bottomLinks a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .top {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .newsletter {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 0 20px;
+  }
+
+  .top {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .newsletter {
+    grid-column: auto;
+  }
+
+  .brand h2 {
+    font-size: 2.2rem;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .bottomLinks {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

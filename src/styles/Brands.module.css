@@ -1,0 +1,47 @@
+.brands {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--white);
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.ticker {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.track {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  animation: scroll 28s linear infinite;
+}
+
+.brandName {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--gray-400);
+  text-transform: uppercase;
+  transition: color var(--transition);
+  white-space: nowrap;
+}
+
+.brandName:hover {
+  color: var(--black);
+}
+
+.dot {
+  color: var(--gray-200);
+  font-size: 18px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.brands:hover .track {
+  animation-play-state: paused;
+}
