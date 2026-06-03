@@ -1,16 +1,101 @@
-# React + Vite
+<p align="center">
+  <img src="./screenshots/banner.png" alt="CASTLANE Banner" width="100%">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">CASTLANE</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  <strong>Your Lane for Diecast.</strong>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  A premium destination for diecast collectors, enthusiasts, and automotive fans.
+</p>
 
-## React Compiler
+<p align="center">
+  <a href="https://castlanes.vercel.app/">🌐 Live Website</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/Adarshjain2001/castlane">📂 Source Code</a>
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CASTLANE is a modern diecast showcase platform built to celebrate the passion for miniature automotive collectibles. From iconic sports cars to legendary racing machines, CASTLANE provides a clean and immersive experience for exploring diecast collections.
+
+---
+
+## Preview
+
+<p align="center">
+  <img src="./screenshots/homepage.png" alt="CASTLANE Homepage" width="100%">
+</p>
+
+---
+
+## Highlights
+
+🏎️ Premium automotive-inspired design
+
+📱 Fully responsive across devices
+
+🚘 Curated diecast collections
+
+✨ Smooth and modern user experience
+
+⚡ Fast performance powered by Vite
+
+🎨 Clean and elegant visual presentation
+
+---
+
+## Tech Stack
+
+* React.js
+* Vite
+* JavaScript
+* CSS Modules
+* Vercel
+
+---
+
+## Run Locally
+
+Clone the project:
+
+```bash
+git clone https://github.com/Adarshjain2001/castlane.git
+```
+
+Go to the project directory:
+
+```bash
+cd castlane
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Creator
+
+**Adarsh Jain**
+
+GitHub: https://github.com/Adarshjain2001
+
+---
+
+<p align="center">
+Made with ❤️ for the Diecast Community
+</p>
